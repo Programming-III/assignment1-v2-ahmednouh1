@@ -7,11 +7,11 @@ using namespace std;
 //#write Person class here
 class Person{
 private:
-string id;
+string name;
 int id;
 public:
 Person();
-Person(string s,int s);
+Person(string n,int s);
 ~Person();
 display();
 }
