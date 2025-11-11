@@ -10,6 +10,9 @@ private:
 string id;
 int id;
 public:
+Person();
+Person(string s,int s);
+~Person();
 display();
 }
 
