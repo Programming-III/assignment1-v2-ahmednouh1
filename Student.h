@@ -14,6 +14,9 @@ Student();
 Student(int yl, string m);
 ~Student();
 display();
+int getyearlevel();
+string getmajor();
+
 };
 
 
