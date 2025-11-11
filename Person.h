@@ -14,7 +14,9 @@ Person();
 Person(string n,int s);
 ~Person();
 display();
-}
+string getname();
+int getID();
+};
 
 
 
